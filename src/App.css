@@ -36,3 +36,207 @@
     transform: rotate(360deg);
   }
 }
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+ 
+:root {
+    --nav-list__anhor: #000000;
+    --background-light-part: #fbfbfb;
+    --background-dark-part: #000000;
+    --text-strong:#FF8A56;
+    --text-big: #000000;
+    --text-description: #666666;
+}
+
+body , html, h1, h2, h3, h4, h5, h6 , p {
+	padding: 0;
+	margin: 0;
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+}
+
+.page {
+    margin: 0 auto;
+    min-width: 1880px;
+}
+
+.page-header {
+    display: flex;
+    /* min-width: 1880px ; */
+    margin: 0px auto;
+    justify-content: space-between;
+    background-color: var(--background-light-part);
+    padding: 3em 2em 0.5em 5em;
+}
+
+.logo {
+    display: flex;
+}
+
+.header-logo {
+    width: 280px;
+}
+
+.nav-list {
+	display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: flex-end;
+    /* padding: 0 4.5em; */
+    align-content: center;
+}
+
+.nav-list_anhor {
+    margin: 0em 6.5em 0em 0em;
+}
+
+.nav-list .nav-list_anhor {
+    text-decoration: none;
+    color: var(--nav-list__anhor);
+    font-size: 20px ;
+    transition: 400ms;
+}
+
+.nav-list .nav-list_anhor:hover {
+    font-weight: 900;
+}
+
+.header-main {
+    /* min-width: 1880px; */
+    display: flex;
+    min-width: 1880px ;
+    margin: 0px auto;
+    justify-content: space-between;
+    background-color: var(--background-light-part);
+    padding: 3em 2em 0.5em 5em;
+}
+
+.left-part {
+    margin-top: 3.5em;
+}
+
+.i-am {
+    color:var(--text-strong);
+    margin-top: 1em;
+}
+
+.about-me {
+    font-size: 45px;
+    line-height: 1.3em;
+    color:var(--text-big);
+}
+
+.me-descriprion {
+    font-size: 22px;
+    color:var(--text-description);
+    line-height: 30px;
+    margin-top: 1.5em;
+}
+
+.buttons-menu {
+    display: flex;
+    margin-top: 2.5em;
+}
+
+.btn-one {
+    height: 55px;
+    width: 190px;
+    background: #000000;
+    cursor: pointer;
+    position: relative;
+    color:#FFFFFF;
+    font-size: 18px;
+    border-radius: 0px;
+    border: 2px solid darkgrey;
+    margin-right:14px;
+    transition: .5s;
+}
+
+.btn-one:hover {
+    color: #000000;
+    z-index:1;
+}
+
+.btn-one::before {
+    content: "";
+    display: block;
+    background:#fff;
+    position: absolute;
+    transition: .5s;
+    z-index: -1;
+}
+
+.book-a-call::before {
+    width: 0;
+    height: 100%;
+    top:0;
+    left:0;
+}
+
+.book-a-call:hover::before {
+    width: 100%;
+}
+
+.btn {
+    height: 55px;
+    width: 190px;
+    background: transparent;
+    font-size: 18px;
+    border:2px solid darkgrey;
+    cursor:pointer;
+    position:relative;
+    transition: .5s;
+   }
+   
+   .btn:hover {
+    color:#fff;
+    z-index: 1;
+   }
+   
+   .btn::before {
+    content: "";
+    display: block;
+    background: #000000;
+    position:absolute;
+    transition: .5s;
+    z-index:-1;
+   }
+   
+   .download-CV::before {
+    width: 0;
+    height: 100%;
+    top:0;
+    left:0;
+   }
+   
+   .download-CV:hover::before {
+    width: 100%;
+   }
+ 
+   .photo-profile {
+    margin-right: 17em;
+   }
+ 
+    .trusted-by {
+        background: var( --background-light-part);
+    }
+
+   .partners-text {
+    text-align: center;
+    font-size: 18px;
+    padding: 100px 0px 50px 0px;
+   }
+
+   .partners-logo {
+    display: flex;
+    justify-content: center;
+   }
+
+   .partner {
+    margin: 0px 60px 0px 60px;
+   }
