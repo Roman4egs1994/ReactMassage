@@ -10,7 +10,7 @@
     --background-light-part: #fbfbfb;
     --background-dark-part: #000000;
     --text-strong:#FF8A56;
-    --text-big: #000000;
+    --text-title: #000000;
     --text-description: #666666;
 }
 
@@ -86,13 +86,13 @@ body , html, h1, h2, h3, h4, h5, h6 , p {
     margin-top: 1em;
 }
 
-.about-me {
+.title_text {
     font-size: 45px;
     line-height: 1.3em;
-    color:var(--text-big);
+    color:var(--text-title);
 }
 
-.me-descriprion {
+.description_text {
     font-size: 22px;
     color:var(--text-description);
     line-height: 30px;
@@ -201,3 +201,46 @@ body , html, h1, h2, h3, h4, h5, h6 , p {
    .partner {
     margin: 0px 60px 0px 60px;
    }
+
+   .promotion {
+    display: flex;
+    min-width: 1880px ;
+    margin: 0px auto;
+    justify-content: space-between;
+    background-color: var(--background-light-part);
+    padding: 4em 2em 0.5em 5em;
+}
+
+    .left_promotion {
+        width: 50%;
+    }
+
+    .right_promotion{
+        width: 50%;
+    }
+
+    .timer {
+        margin-top: 2em;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    .right_promotion .timer__block {
+        width: 102px;
+        height: 120px;
+        background: #fff;
+        box-shadow: 0 4px 20px rgb(0 0 0 / 25%);
+        font-size: 16px;
+        font-weight: 300;
+        text-align: center;
+        margin-right: 45px;
+    }
+
+    .right_promotion .timer__block span {
+        display: block;
+        margin-top: 20px;
+        margin-bottom: 5px;
+        font-size: 56px;
+        font-weight: 700;
+    }
