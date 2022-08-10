@@ -2,7 +2,7 @@
 
 //Timer promotion
 
-// document.addEventListener('DOMContentLoaded', () => {
+document.addEventListener('DOMContentLoaded', () => {
 
     const deadline = '2022-08-11';
 
@@ -55,7 +55,5 @@
    }
 
    setClock('timer' , deadline);
-
-   
-// });
+});
 
