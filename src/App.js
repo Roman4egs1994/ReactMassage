@@ -5,9 +5,11 @@ import partnersTwo from '../src/images/partnersTwo.svg';
 import partnersFree from '../src/images/partnersFree.svg';
 import partnersFour from '../src/images/partnersFour.svg';
 import './App.css';
-import './scriptTimer.js';
+import { useTimer, deadline } from './scriptTimer.js';
+
 
 function App() {
+   const timer = useTimer(deadline);
   return (
     <div className="page">
         <header className="page-header">
@@ -72,23 +74,24 @@ function App() {
                 <p className="title_text">Осталось до конца акции:</p>
                 <div className="timer">
                     <div className="timer__block">
-                        <span id="days">00</span>
+                        <span id="days">{timer.days}</span>
                         дней
                     </div>
                     <div className="timer__block">
-                        <span id="hours">00</span>
+                        <span id="hours">{timer.hours}</span>
                         часов
                     </div>
                     <div className="timer__block">
-                        <span id="minutes">00</span>
+                        <span id="minutes">{timer.minutes}</span>
                         минут
                     </div>
                     <div className="timer__block">
-                        <span id="seconds">00</span>
+                        <span id="seconds">{timer.seconds}</span>
                         секунд
                     </div>
                 </div>
            </div>
+        
         </div>
 
     </div>
