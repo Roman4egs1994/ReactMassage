@@ -14,7 +14,7 @@
     --text-description: #666666;
 }
 
-body , html, h1, h2, h3, h4, h5, h6 , p {
+body , html, h1, h2, h3, h4, h5, h6 , p, ul {
 	padding: 0;
 	margin: 0;
 	font-family: 'Roboto', sans-serif;
@@ -89,6 +89,7 @@ body , html, h1, h2, h3, h4, h5, h6 , p {
 .title_text {
     font-size: 45px;
     line-height: 1.3em;
+    font-weight: 600;
     color:var(--text-title);
 }
 
@@ -208,7 +209,7 @@ body , html, h1, h2, h3, h4, h5, h6 , p {
     margin: 0px auto;
     justify-content: space-between;
     background-color: var(--background-light-part);
-    padding: 4em 2em 0.5em 5em;
+    padding: 5em 2em 0.5em 5em;
 }
 
     .left_promotion {
@@ -244,3 +245,74 @@ body , html, h1, h2, h3, h4, h5, h6 , p {
         font-size: 56px;
         font-weight: 700;
     }
+
+    .services {
+        min-width: 1880px ;
+        margin: 0px auto;
+        justify-content: space-between;
+        background-color: var(--background-light-part);
+        padding: 4em 2em 0.5em 5em;
+    }
+
+    .services_header {
+        font-size: 30px;
+        font-weight: 700;
+        line-height: 22px;
+        letter-spacing: 4px;
+        text-align: center;
+        color: #FF5E69;
+    }
+
+    .services_description {
+        font-size: 54px;
+        font-weight: 700;
+        line-height: 59px;
+        letter-spacing: 1px;
+        text-align: center;
+        padding-top: 1em;
+    }
+
+    .services_stick {
+        padding: 5em 0em 0em 0em;
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .stick {
+        width: 270px;
+    }
+
+    .stick_text{
+        padding: 1em 0em 0em 0em;
+        height: 230px;
+    }
+    
+    .header_one {
+        font-weight: 700;
+        font-size: 22px;
+        line-height: 26px;
+    }
+
+    .description_one {
+        padding: 1.5em 0em 0em 0em;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 28px;
+        color: #666666;
+    }
+
+    .list {
+        padding: 1.5em 0em 0em 0em;
+    }
+
+    .list_one {
+        list-style-type: square;
+    }
+
+    .list_one li {
+        font-size: 18px;
+        margin-left: 18px;
+        padding: 10px 0px 0px 0px;
+        font-weight: 700;
+    }
+

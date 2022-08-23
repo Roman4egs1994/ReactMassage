@@ -5,7 +5,7 @@ import { useCallback, useState, useEffect, useRef } from "react";
 //Timer promotion
 
 
-export const deadline = '2022-08-12';
+export const deadline = '2023-08-12';
 
 function getTimeRemaining(endtime) {
     const t = Date.parse(endtime) - Date.parse(new Date()),
