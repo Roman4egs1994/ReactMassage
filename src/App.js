@@ -7,6 +7,9 @@ import partnersFour from '../src/images/partnersFour.svg';
 import StickOne from '../src/images/StickOne.svg';
 import StickTwo from '../src/images/StickTwo.svg';
 import StickFree from '../src/images/StickFree.svg';
+import caruselOne from '../src/images/carusel_one.png';
+import caruselTwo from '../src/images/carusel_two.png';
+import caruselFree from '../src/images/carusel_free.png';
 import './App.css';
 import { useTimer, deadline } from './scriptTimer.js';
 
@@ -194,12 +197,67 @@ function App() {
                     Мои клиенты тому доказательство.</p>
                 </div>
                 <div className='project_button'>
-                    <button className='btn-one book-a-call'>Весь проект</button>
+                    <button className='btn-one book-a-call'>Все проекты</button>
+                </div>
+            </div> 
+
+            <div className='project_bottom'>
+                <div className='box'>
+                    <div className='box_img'>
+                        <img className="box_img_carusel"  src={caruselOne} alt=""/>
+                    </div>
+
+                    <div className='box_bottom'>
+                        <div className='name'>
+                            <p className='name_discr'>Branding</p>
+                        </div>
+                        <div className='short'>
+                             <p className='short_discr'>Soulful Rebrand</p>   
+                        </div>
+                        <div className='button_box'>
+                            <button className='btn_box'>Посмотреть &#8594;</button>
+                        </div>
+                    </div>
                 </div>
 
-            </div> 
-        </div>
+                <div className='box'>
+                    <div className='box_img'>
+                        <img className="box_img_carusel"  src={caruselTwo} alt=""/>
+                    </div>
 
+                    <div className='box_bottom'>
+                        <div className='name'>
+                            <p className='name_discr'>Branding</p>
+                        </div>
+                        <div className='short'>
+                             <p className='short_discr'>Soulful Rebrand</p>   
+                        </div>
+                        <div className='button_box'>
+                            <button className='btn_box'>Посмотреть &#8594;</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div className='box'>
+                    <div className='box_img'>
+                        <img className="box_img_carusel"  src={caruselFree} alt=""/>
+                    </div>
+
+                    <div className='box_bottom'>
+                        <div className='name'>
+                            <p className='name_discr'>Branding</p>
+                        </div>
+                        <div className='short'>
+                             <p className='short_discr'>Soulful Rebrand</p>   
+                        </div>
+                        <div className='button_box'>
+                            <button className='btn_box'>Посмотреть &#8594;</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
   </div>
   );
 }

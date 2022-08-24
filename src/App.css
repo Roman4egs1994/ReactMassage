@@ -252,7 +252,7 @@ body , html, h1, h2, h3, h4, h5, h6 , p, ul {
         margin: 0px auto;
         justify-content: space-between;
         background-color: var(--background-light-part);
-        padding: 6em 2em 0.5em 5em;
+        padding: 8em 2em 0.5em 5em;
     }
 
     .services_header {
@@ -328,7 +328,7 @@ body , html, h1, h2, h3, h4, h5, h6 , p, ul {
 
 .project {
     background-color: var(--background-light-part);
-    padding: 6em 2em 0.5em 5em;
+    padding: 8em 2em 0.5em 5em;
 }    
 
 .project_top {
@@ -353,7 +353,50 @@ body , html, h1, h2, h3, h4, h5, h6 , p, ul {
     padding-top: 1em;
 }
 
-.project_button {
+.box {
+
+}
+
+.project_bottom {
+    padding: 4em 0em 0em 0em;
     display: flex;
-    align-items: center;
+    justify-content: space-between;
+}
+
+.box_bottom {
+    padding: 1em 0em 0em 1.5em;
+    height: 120px;
+}
+
+.name_discr {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 14px;
+    letter-spacing: 4px;
+    text-align: left;
+    color:#3C46FF
+}
+
+.short {
+    padding: 1em 0em 0em 0em;
+}
+
+.short_discr {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.button_box {
+    padding: 1em 0em 0em 0em;
+}
+
+.btn_box {
+    border:none;
+    font-size: 18px;
+    line-height: 18px;
+    background-color: #fbfbfb;
+    cursor: pointer;
 }
