@@ -280,7 +280,8 @@ body , html, h1, h2, h3, h4, h5, h6 , p, ul {
     }
 
     .stick {
-        width: 270px;
+        width: 330px;
+        padding: 20px;
     }
 
     .stick_text{
@@ -324,3 +325,35 @@ body , html, h1, h2, h3, h4, h5, h6 , p, ul {
         font-weight: 700;
     }
 
+
+.project {
+    background-color: var(--background-light-part);
+    padding: 6em 2em 0.5em 5em;
+}    
+
+.project_top {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header_projects {
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: 4px;
+    color: #B16CEA;
+}
+
+.description_projects {
+    font-size: 54px;
+    font-weight: 700;
+    line-height: 59px;
+    letter-spacing: 1px;
+    text-align: left;
+    padding-top: 1em;
+}
+
+.project_button {
+    display: flex;
+    align-items: center;
+}

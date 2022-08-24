@@ -133,7 +133,6 @@ function App() {
                         </div>    
                     </div>
 
-
                     <div className='stick' >
                         <div className='stick_img'>
                             <img className="stick_img"  src={StickTwo} alt=""/>
@@ -158,7 +157,7 @@ function App() {
                         </div>    
                     </div>
 
-
+                
                     <div className='stick' >
                         <div className='stick_img'>
                             <img className="stick_img"  src={StickFree} alt=""/>
@@ -166,11 +165,12 @@ function App() {
                         
                         <div className='stick_text'>
                             <div className='header_stick_height'>  
-                                <p className='header_one'>What you can expect</p>
+                                <p className='header_one'>В чем я эксперт</p>
                             </div>
                             <div className='description_text_height'>     
                                 <p className='description_one'>Я создаю продукты, которые более чем красивы.
-                                Я делаю их пригодными для отправки и использования.</p>
+                                Я делаю их пригодными для отправки и использования.
+                                </p>
                             </div>        
                         </div>
         
@@ -185,8 +185,21 @@ function App() {
                 </div>
             </div>
         </div>
-        
-           
+
+        <div className='project'>
+           <div className='project_top'>
+               <div className='project_text'>   
+                    <p className='header_projects'>Проекты</p>
+                    <p className='description_projects'>Я привожу результаты.<br></br>
+                    Мои клиенты тому доказательство.</p>
+                </div>
+                <div className='project_button'>
+                    <button className='btn-one book-a-call'>Весь проект</button>
+                </div>
+
+            </div> 
+        </div>
+
   </div>
   );
 }
