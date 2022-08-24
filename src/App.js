@@ -256,8 +256,13 @@ function App() {
                     </div>
                 </div>
             </div>
+
+            <div className='castom_nav'>
+                <span className='castom_nav__prev'>&#x2039;</span>
+                <span className='castom_nav__next'>&#x203A;</span>
+            </div>
         </div>
-        
+
   </div>
   );
 }
