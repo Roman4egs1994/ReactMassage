@@ -70,7 +70,7 @@ body , html, h1, h2, h3, h4, h5, h6 , p, ul {
 .header-main {
     /* min-width: 1880px; */
     display: flex;
-    min-width: 1880px ;
+    /* min-width: 1880px ; */
     margin: 0px auto;
     justify-content: space-between;
     background-color: var(--background-light-part);
@@ -181,7 +181,7 @@ body , html, h1, h2, h3, h4, h5, h6 , p, ul {
    }
  
    .photo-profile {
-    margin-right: 17em;
+    margin-right: 8em;
    }
  
     .trusted-by {
@@ -196,7 +196,8 @@ body , html, h1, h2, h3, h4, h5, h6 , p, ul {
 
    .partners-logo {
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
+    padding: 0em 4em 0em 4em;
    }
 
    .partner {
@@ -205,11 +206,11 @@ body , html, h1, h2, h3, h4, h5, h6 , p, ul {
 
    .promotion {
     display: flex;
-    min-width: 1880px ;
+    /* min-width: 1880px ; */
     margin: 0px auto;
     justify-content: space-between;
     background-color: var(--background-light-part);
-    padding: 5em 2em 0.5em 5em;
+    padding: 6em 2em 0.5em 5em;
 }
 
     .left_promotion {
@@ -217,7 +218,7 @@ body , html, h1, h2, h3, h4, h5, h6 , p, ul {
     }
 
     .right_promotion{
-        width: 50%;
+        width: 40%;
     }
 
     .timer {
@@ -251,7 +252,7 @@ body , html, h1, h2, h3, h4, h5, h6 , p, ul {
         margin: 0px auto;
         justify-content: space-between;
         background-color: var(--background-light-part);
-        padding: 4em 2em 0.5em 5em;
+        padding: 6em 2em 0.5em 5em;
     }
 
     .services_header {
@@ -284,9 +285,16 @@ body , html, h1, h2, h3, h4, h5, h6 , p, ul {
 
     .stick_text{
         padding: 1em 0em 0em 0em;
-        height: 230px;
     }
     
+    .header_stick_height {
+        height: 55px;
+    }
+
+    .description_text_height {
+        height: 170px;
+    }
+
     .header_one {
         font-weight: 700;
         font-size: 22px;

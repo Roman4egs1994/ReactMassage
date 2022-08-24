@@ -104,7 +104,7 @@ function App() {
         {/* Таймер конец */}
 
         <div className='services'>
-            <div className='services_text'>
+            <div className='services_text'> 
                 <p className='services_header'>Услуги</p>
                 <p className='services_description'>Дизайн, который решает проблемы,<br></br> по одному продукту за раз.</p>
 
@@ -115,9 +115,13 @@ function App() {
                         </div>
                         
                         <div className='stick_text'>
-                            <p className='header_one'>Что я могу для тебя сделать</p>
-                            <p className='description_one'>Более быстрые и качественные продукты, которые нравятся вашим пользователям. 
-                            Вот все услуги, которые я предоставляю:</p>
+                           <div className='header_stick_height'>
+                                <p className='header_one'>Что я могу для тебя сделать</p>
+                           </div>  
+                           <div className='description_text_height'>
+                                <p className='description_one'>Более быстрые и качественные продукты, которые нравятся вашим пользователям. 
+                                Вот все услуги, которые я предоставляю:</p>
+                            </div> 
                         </div>
         
                         <div className='list'>
@@ -136,9 +140,13 @@ function App() {
                         </div>
                         
                         <div className='stick_text'>
-                            <p className='header_one'>Приложения, в которых я свободно владею</p>
-                            <p className='description_one'>Каждому дизайнеру нужны правильные инструменты,
-                             чтобы выполнить идеальную работу. К счастью, я говорю на нескольких языках.</p>
+                            <div className='header_stick_height'> 
+                                <p className='header_one'>Приложения, в которых я свободно владею</p>
+                            </div>
+                            <div className='description_text_height'>   
+                                <p className='description_one'>Каждому дизайнеру нужны правильные инструменты,
+                                чтобы выполнить идеальную работу. К счастью, я говорю на нескольких языках.</p>
+                            </div> 
                         </div>
         
                         <div className='list'>
@@ -157,9 +165,13 @@ function App() {
                         </div>
                         
                         <div className='stick_text'>
-                            <p className='header_one'>What you can expect</p>
-                            <p className='description_one'>Я создаю продукты, которые более чем красивы.
-                             Я делаю их пригодными для отправки и использования.</p>
+                            <div className='header_stick_height'>  
+                                <p className='header_one'>What you can expect</p>
+                            </div>
+                            <div className='description_text_height'>     
+                                <p className='description_one'>Я создаю продукты, которые более чем красивы.
+                                Я делаю их пригодными для отправки и использования.</p>
+                            </div>        
                         </div>
         
                         <div className='list'>
@@ -170,10 +182,11 @@ function App() {
                             </ul>
                         </div>    
                     </div>
-
                 </div>
             </div>
-        </div>   
+        </div>
+        
+           
   </div>
   );
 }
