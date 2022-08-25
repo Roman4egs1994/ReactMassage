@@ -14,7 +14,7 @@
     --text-description: #666666;
 }
 
-body , html, h1, h2, h3, h4, h5, h6 , p, ul {
+body , html, h1, h2, h3, h4, h5, h6 , p, ul, img, div {
 	padding: 0;
 	margin: 0;
 	font-family: 'Roboto', sans-serif;
@@ -329,6 +329,7 @@ body , html, h1, h2, h3, h4, h5, h6 , p, ul {
 .project {
     background-color: var(--background-light-part);
     padding: 8em 2em 0.5em 5em;
+    height: 696px;
 }    
 
 .project_top {
@@ -353,10 +354,6 @@ body , html, h1, h2, h3, h4, h5, h6 , p, ul {
     padding-top: 1em;
 }
 
-.box {
-
-}
-
 .project_bottom {
     padding: 4em 0em 0em 0em;
     display: flex;
@@ -366,6 +363,7 @@ body , html, h1, h2, h3, h4, h5, h6 , p, ul {
 .box_bottom {
     padding: 1em 0em 0em 1.5em;
     height: 120px;
+    background-color: white;
 }
 
 .name_discr {
@@ -402,7 +400,7 @@ body , html, h1, h2, h3, h4, h5, h6 , p, ul {
 }
 
 .castom_nav {
-    padding: 5em 5em 0em 0em;
+    padding: 3em 5em 0em 0em;
     display: flex;
     justify-content: flex-end;
 }
@@ -473,11 +471,44 @@ body , html, h1, h2, h3, h4, h5, h6 , p, ul {
     display: flex;
 }
 
-.Clock span {
-    padding: 2em 0em 0em 0em;
+.blog_message {
+    padding: 2em 0em 0em 15em;
+    width: 1300px;
+}
+
+.message {
+    margin-bottom: 5em;
+}
+
+.сlock span {
+    margin-right: 0.3em;
     font-style: normal;
     font-weight: 700;
     font-size: 15px;
     line-height: 16px;
     color: rgba(255, 255, 255, 0.7);
+}
+
+.blog_text {
+    padding: 1.5em 0em 0em 0em;
+}
+
+.text_discr {
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 36px;
+    color:#FFFFFF;
+}
+
+.article {
+    padding: 1.5em 0em 1.5em 0em;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.3);
+}
+
+.article_open {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 18px;
+    color:#FFFFFF;
+    
 }
