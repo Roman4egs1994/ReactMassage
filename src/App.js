@@ -10,6 +10,9 @@ import StickFree from '../src/images/StickFree.svg';
 import caruselOne from '../src/images/carusel_one.png';
 import caruselTwo from '../src/images/carusel_two.png';
 import caruselFree from '../src/images/carusel_free.png';
+import mePhotoOne from '../src/images/me_photoOne.png';
+import mePhotoTwo from '../src/images/me_photoTwo.png';
+import mePhotoFree from '../src/images/me_photoFree.png';
 import './App.css';
 import { useTimer, deadline } from './scriptTimer.js';
 
@@ -367,9 +370,36 @@ function App() {
                             </div>
                         </div>              
                     </div>
-                    
             </div>    
         </div>
+        
+        <div className='me'>
+           <div className='me_top'>
+                <div className='me_top_left'> 
+                    <div className='me_header'>
+                        <p className='me_header_name'>Массажист</p>
+                    </div>
+                    <div className='me_discr'>
+                        <p className='me_discr_im'>Это я!</p>
+                    </div>
+                </div>
+                <div className='me_top_right'>
+                    <div className='global_discr'>
+                        <p className='global_discr_im'>За последние 12 лет я работал с самыми разными клиентами,
+                         от стартапов до компаний из списка Fortune 500. Мне нравится создавать интерфейсы,
+                          которые радуют пользователей и помогают бизнесу расти.</p>
+                    </div>
+                </div>
+            </div>
+            <div className='me_middle'>
+                <div className='me_photo'>
+                    <img className="me_photo_one"  src={mePhotoOne} alt=""/>
+                    <img className="me_photo_Two"  src={mePhotoTwo} alt=""/>
+                    <img className="me_photo_Free"  src={mePhotoFree} alt=""/>
+                    <img className="me_photo_Two"  src={mePhotoTwo} alt=""/>
+                </div>
+            </div>
+        </div> 
   </div>
   );
 }

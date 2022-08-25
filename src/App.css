@@ -509,6 +509,62 @@ body , html, h1, h2, h3, h4, h5, h6 , p, ul, img, div {
     font-weight: 700;
     font-size: 18px;
     line-height: 18px;
-    color:#FFFFFF;
-    
+    color:#FFFFFF;  
+}
+
+.article_open {
+    cursor:pointer;
+}
+
+.me {
+    background-color: var(--background-light-part);
+    padding: 8em 2em 0.5em 5em;
+}
+
+.me_top {
+    display: flex;
+    justify-content: space-between;
+}
+
+.me_header_name {
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: 4px;
+    text-align: left;
+    color: #FF5E69;
+}
+
+.me_discr {
+    padding: 1em 0em 0em 0em;
+}
+
+.me_discr_im {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 54px;
+    line-height: 59px;
+    letter-spacing: 1px;
+}
+
+.me_top_right{
+    width: 780px;
+}
+
+.global_discr_im {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 40px;
+    color:#666666;
+}
+
+.me_middle {
+    display: flex;
+    justify-content: space-around;
+    padding: 5em 0em 0em 0em;
+}
+
+.me_photo img {
+    margin: 0px 15px 0px 0px;
 }
