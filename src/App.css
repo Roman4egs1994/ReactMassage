@@ -408,6 +408,7 @@ body , html, h1, h2, h3, h4, h5, h6 , p, ul {
 }
 
 .castom_nav__prev {
+    cursor: pointer;
     font-size: 30px;
     width: 40px;
     height: 43px;
@@ -418,10 +419,65 @@ body , html, h1, h2, h3, h4, h5, h6 , p, ul {
 }
 
 .castom_nav__next {
+    cursor: pointer;
     font-size: 30px;
     width: 40px;
     height: 43px;
     border: 2px solid black;
     padding: 0px 13px;
     background-color: #fbfbfb;
+}
+
+.blog {
+    background-color:#000000;
+    padding: 20em 2em 0.5em 5em;
+}
+
+.blog_name_discr {
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: 4px;
+    text-align: left;
+    color: #FFA84B;
+}
+
+.blog_bottom {
+    padding: 1.5em 0em 0em 0em;
+}
+
+.blog_later_discr {
+    font-family: Roboto;
+    font-size: 54px;
+    font-weight: 700;
+    line-height: 59px;
+    letter-spacing: 1px;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+.button_blog {
+    padding: 2em 0em 0em 0em;
+}
+
+.btn_blog {
+    border:none;
+    font-size: 18px;
+    line-height: 18px;
+    background-color:#000000;
+    cursor: pointer;
+    color: #FFFFFF;
+}
+
+.blog_post {
+    display: flex;
+}
+
+.Clock span {
+    padding: 2em 0em 0em 0em;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 16px;
+    color: rgba(255, 255, 255, 0.7);
 }

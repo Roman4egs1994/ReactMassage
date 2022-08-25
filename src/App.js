@@ -263,6 +263,30 @@ function App() {
             </div>
         </div>
 
+        <div className='blog'>
+            <div className='blog_name'>
+                <p className='blog_name_discr'>Блог</p>
+            </div>
+            <div className='blog_post'>    
+                <div className='blog_bottom'>
+                   <div className='blog_later'> 
+                        <p className='blog_later_discr'>Последние блоги</p>
+                   </div> 
+                    <div className='button_blog'>
+                        <button className='btn_blog'>Посмотреть все &#8594;</button>
+                    </div>
+                </div>              
+                    <div className='blog_massаge'>
+                        <div className='Clock'>
+                            <span className='month'>Август</span>
+                            <span className='number'>16</span>
+                            <span className='year'>2021</span>
+                            <span className='dot'>.</span>
+                            <span className='time'>6 минут</span>
+                        </div>
+                    </div>
+            </div>    
+        </div>
   </div>
   );
 }
