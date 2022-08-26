@@ -13,6 +13,8 @@ import caruselFree from '../src/images/carusel_free.png';
 import mePhotoOne from '../src/images/me_photoOne.png';
 import mePhotoTwo from '../src/images/me_photoTwo.png';
 import mePhotoFree from '../src/images/me_photoFree.png';
+// import education from '../src/images/education.svg';
+import arrov from '../src/images/arrov.svg';
 import './App.css';
 import { useTimer, deadline } from './scriptTimer.js';
 
@@ -400,6 +402,81 @@ function App() {
                 </div>
             </div>
         </div> 
+
+        <div className='experience'>
+           <div className='experience_flex'> 
+                <div className='education'>
+                   <div className='educatuon_flex'> 
+                        <div className='education_img'>
+                            {/* <img className='education_img_icon' src={} alt=''/> */}
+                        </div>
+                        <div className='education_header'>
+                            <p className='education_header_discr'>Образование</p>   
+                        </div>    
+                    </div>
+
+                    <div className='education_stick'>
+                        <div className='education_stick_flex'>
+                            <div className='education_stick_text'>
+                                <p className='education_stick_school'>МБОУ "Средняя школа № 27"</p>
+                            </div>
+                            <div className='education_stick_arrov'>
+                                <img className='arrow' src={arrov} alt='' />
+                            </div>    
+                        </div>
+
+                        <div className='education_stick_flex_two'>
+                            <div className='speciality'>
+                                <p className='speciality_school'>Среднее образование</p>
+                            </div>
+                            <div className='speciality_ending'>
+                                <p className='ending'>Май 2010 г.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className='education_stick'>
+                        <div className='education_stick_flex'>
+                            <div className='education_stick_text'>
+                                <p className='education_stick_school'>МБОУ "Средняя школа № 27"</p>
+                            </div>
+                            <div className='education_stick_arrov'>
+                                <img className='arrow' src={arrov} alt='' />
+                            </div>    
+                        </div>
+
+                        <div className='education_stick_flex_two'>
+                            <div className='speciality'>
+                                <p className='speciality_school'>Среднее образование</p>
+                            </div>
+                            <div className='speciality_ending'>
+                                <p className='ending'>Май 2010 г.</p>
+                            </div>
+                        </div>
+                    </div>      
+
+                    <div className='education_stick'>
+                        <div className='education_stick_flex'>
+                            <div className='education_stick_text'>
+                                <p className='education_stick_school'>МБОУ "Средняя школа № 27"</p>
+                            </div>
+                            <div className='education_stick_arrov'>
+                                <img className='arrow' src={arrov} alt='' />
+                            </div>    
+                        </div>
+
+                        <div className='education_stick_flex_two'>
+                            <div className='speciality'>
+                                <p className='speciality_school'>Среднее образование</p>
+                            </div>
+                            <div className='speciality_ending'>
+                                <p className='ending'>Май 2010 г.</p>
+                            </div>
+                        </div>
+                    </div>   
+                </div>
+            </div> 
+        </div>
   </div>
   );
 }
