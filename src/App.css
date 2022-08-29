@@ -574,6 +574,11 @@ body , html, h1, h2, h3, h4, h5, h6 , p, ul, img, div {
     padding: 8em 2em 0.5em 5em;
 }
 
+.experience_flex {
+    display: flex;
+    justify-content: space-between;
+}
+
 .education_header_discr {
     font-style: normal;
     font-weight: 400;
@@ -583,13 +588,13 @@ body , html, h1, h2, h3, h4, h5, h6 , p, ul, img, div {
 
 .education_stick {
     padding: 3em 0em 1.5em 0em;
-    width: 700px;
+    width: 820px;
     border-bottom: 2px solid #E5E5E5;
 }
 
 .education_stick_flex{
-display: flex;
-justify-content: space-between;
+    display: flex;
+    justify-content: space-between;
 }
 
 .education_stick_school {
@@ -618,9 +623,69 @@ justify-content: space-between;
 
 .speciality_ending{
     margin-right: 60px ;
+    padding: 0.5em 0em 0em 0em;
 }
 
 .ending {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.work_flex {
+    display: flex;
+}
+
+.work_header_discr {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 36px;
+}
+
+.work_stick {
+    padding: 3em 0em 1.5em 0em;
+    width: 820px;
+    border-bottom: 2px solid #E5E5E5;
+}
+
+.work_flex_one {
+    display: flex;
+    justify-content: space-between;
+}
+
+.work_stick_experience {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 26px;
+}
+
+.work_flex_two {
+    display: flex;
+    justify-content: space-between;
+}
+
+.job {
+    padding: 0.5em 0em 0em 0em;
+}
+
+.job_title {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.job_date {
+    margin-right: 60px;
+    padding: 0.5em 0em 0em 0em;
+}
+
+.job_date_ending {
     font-style: normal;
     font-weight: 400;
     font-size: 16px;

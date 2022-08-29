@@ -475,6 +475,77 @@ function App() {
                         </div>
                     </div>   
                 </div>
+
+                <div className='work'>
+                    <div className='work_flex'> 
+                        <div className='work_img'>
+                            {/* <img className='education_img_icon' src={} alt=''/> */}
+                        </div>
+                        <div className='work_header'>
+                            <p className='work_header_discr'>Опыт работы</p>   
+                        </div>    
+                    </div>
+                   <div className='work_stick'>
+                        <div className='work_flex_one'>
+                            <div className='work_stick_text'>
+                                <p className='work_stick_experience'>Областной клинический 
+                                онкологический диспансер</p>
+                            </div>
+                            <div className='education_stick_arrov'>
+                                    <img className='arrow' src={arrov} alt='' />
+                            </div>
+                        </div>
+                        <div className='work_flex_two'>
+                            <div className='job'>
+                                <p className='job_title'>Медицинская сестра</p>
+                            </div>
+                            <div className='job_date'>
+                                <p className='job_date_ending'>Май 2010 г.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className='work_stick'>
+                        <div className='work_flex_one'>
+                            <div className='work_stick_text'>
+                                <p className='work_stick_experience'>Областной клинический 
+                                онкологический диспансер</p>
+                            </div>
+                            <div className='education_stick_arrov'>
+                                    <img className='arrow' src={arrov} alt='' />
+                            </div>
+                        </div>
+                        <div className='work_flex_two'>
+                            <div className='job'>
+                                <p className='job_title'>Медицинская сестра</p>
+                            </div>
+                            <div className='job_date'>
+                                <p className='job_date_ending'>Май 2010 г.</p>
+                            </div>
+                        </div>
+                    </div> 
+
+                    <div className='work_stick'>
+                        <div className='work_flex_one'>
+                            <div className='work_stick_text'>
+                                <p className='work_stick_experience'>Областной клинический 
+                                онкологический диспансер</p>
+                            </div>
+                            <div className='education_stick_arrov'>
+                                    <img className='arrow' src={arrov} alt='' />
+                            </div>
+                        </div>
+                        <div className='work_flex_two'>
+                            <div className='job'>
+                                <p className='job_title'>Медицинская сестра</p>
+                            </div>
+                            <div className='job_date'>
+                                <p className='job_date_ending'>Май 2010 г.</p>
+                            </div>
+                        </div>
+                    </div> 
+                     
+                </div>
             </div> 
         </div>
   </div>
