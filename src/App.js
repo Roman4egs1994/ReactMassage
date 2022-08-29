@@ -15,6 +15,8 @@ import mePhotoTwo from '../src/images/me_photoTwo.png';
 import mePhotoFree from '../src/images/me_photoFree.png';
 // import education from '../src/images/education.svg';
 import arrov from '../src/images/arrov.svg';
+import review from '../src/images/review.png';
+import quotes from '../src/images/quotes.svg';
 import './App.css';
 import { useTimer, deadline } from './scriptTimer.js';
 
@@ -547,6 +549,54 @@ function App() {
                      
                 </div>
             </div> 
+        </div>
+
+        <div className='testimonials'>
+            <div className='testimonails_name'>
+                <p className='testimonials_name_title'>Отзывы</p>
+            </div>
+            <div className='testimonails_discr'>
+                <p className='testimonails_discr_part'>Слово на улице</p>
+            </div>
+
+            <div className='review'>
+                <div className='review_left'>
+                    <div className='review_img'>
+                        <img className='review_image' src={review} alt=''/>
+                    </div>
+                </div>
+
+                <div className='review_right'>
+                    <div className='review_img'>
+                        <img className='review_quotes' src={quotes} alt=''/>
+                    </div>
+
+                    <div className='review_discription'>
+                        <p className='review_discr'>Джейд помогла нам создать настолько интуитивно понятную программу, 
+                        что не требовалось пошагового руководства. Он решал сложные задачи с блестящим дизайном</p>
+                    </div>
+                    
+                    <div className='review_bottom'>
+                       <div className='review_bottom_flex'> 
+                           <div className='review_bottom_left'>                        
+                                <div className='review_FIO'>
+                                    <p className='FIO'>John Frankin</p>
+                                </div>
+                                <div className='job_fio'>
+                                    <p className='name_job'>Основатель, Дабл Банч</p>
+                                </div>   
+                            </div>  
+
+                            <div className='review_bottom_right'>
+                                 <div className='castom_nav_two'>
+                                    <span className='castom_nav_prew__two'>&#x2039;</span>
+                                    <span className='castom_nav_next__two'>&#x203A;</span>
+                                </div>
+                            </div>
+                        </div> 
+                    </div>
+                </div>
+            </div>
         </div>
   </div>
   );
