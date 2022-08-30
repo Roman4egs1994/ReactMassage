@@ -791,3 +791,65 @@ body , html, h1, h2, h3, h4, h5, h6 , p, ul, img, div {
     padding: 0px 13px;
     background-color: #000000;
 }
+
+.FAQ {
+    padding: auto;
+    background-color: var(--background-dark-part);
+    padding: 4em 2em 0.5em 5em;
+}
+
+.FAQ_header {
+    display: flex;
+    justify-content: center;
+}
+
+.FAQ_header_name {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 22px;
+    letter-spacing: 4px;
+    color: #FF8A56;
+}
+
+.FAQ_header_discription {
+    padding: 1em 0em 0em 0em ;
+}
+
+.FAQ_header_discr { 
+    font-style: normal;
+    font-weight: 700;
+    font-size: 54px;
+    line-height: 59px;
+    letter-spacing: 1px;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.questions {
+    display: flex;
+    justify-content: space-between;
+    padding: 6em 0em 0em 0em;
+}
+
+.question_stick {
+    padding: 0em 0em 1.5em 0em;
+    width: 850px;
+    cursor: pointer;
+}
+.question_flex{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    padding: 0em 0em 2.5em 0em;
+    border-bottom: 1px solid rgba(229, 229, 229, 0.3);
+}
+
+.asked {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 31px;
+    letter-spacing: 0.3px;
+    color: #FFFFFF;
+}

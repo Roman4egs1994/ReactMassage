@@ -17,6 +17,7 @@ import mePhotoFree from '../src/images/me_photoFree.png';
 import arrov from '../src/images/arrov.svg';
 import review from '../src/images/review.png';
 import quotes from '../src/images/quotes.svg';
+import arrowdown from '../src/images/arrowdown.svg';
 import './App.css';
 import { useTimer, deadline } from './scriptTimer.js';
 
@@ -594,6 +595,109 @@ function App() {
                                 </div>
                             </div>
                         </div> 
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div className='FAQ'>
+            <div className='FAQ_header'>
+                <p className='FAQ_header_name'>FAQ</p>
+            </div>
+            <div className='FAQ_header_discription'>
+                <p className='FAQ_header_discr'>Часто задаваемые вопросы</p>
+            </div>
+
+            <div className='questions'>
+                <div className='question_left'>
+                    
+                   <div className='question_stick'>
+                        <div className='question_flex'>
+                            <div className='question_asked'>
+                                <p className='asked'>Какие типы проектов вы берете?</p>
+                            </div>
+                            <div className='arrov_down_img'>
+                                <img className='down_img' src={arrowdown} alt=''/>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className='question_stick'>
+                        <div className='question_flex'>
+                            <div className='question_asked'>
+                                <p className='asked'>Какие типы проектов вы берете?</p>
+                            </div>
+                            <div className='arrov_down_img'>
+                                <img className='down_img' src={arrowdown} alt=''/>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className='question_stick'>
+                        <div className='question_flex'>
+                            <div className='question_asked'>
+                                <p className='asked'>Какие типы проектов вы берете?</p>
+                            </div>
+                            <div className='arrov_down_img'>
+                                <img className='down_img' src={arrowdown} alt=''/>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className='question_stick'>
+                        <div className='question_flex'>
+                            <div className='question_asked'>
+                                <p className='asked'>Какие типы проектов вы берете?</p>
+                            </div>
+                            <div className='arrov_down_img'>
+                                <img className='down_img' src={arrowdown} alt=''/>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div className='question_right'>
+
+                <div className='question_stick'>
+                        <div className='question_flex'>
+                            <div className='question_asked'>
+                                <p className='asked'>Какие типы проектов вы берете?</p>
+                            </div>
+                            <div className='arrov_down_img'>
+                                <img className='down_img' src={arrowdown} alt=''/>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className='question_stick'>
+                        <div className='question_flex'>
+                            <div className='question_asked'>
+                                <p className='asked'>Какие типы проектов вы берете?</p>
+                            </div>
+                            <div className='arrov_down_img'>
+                                <img className='down_img' src={arrowdown} alt=''/>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className='question_stick'>
+                        <div className='question_flex'>
+                            <div className='question_asked'>
+                                <p className='asked'>Какие типы проектов вы берете?</p>
+                            </div>
+                            <div className='arrov_down_img'>
+                                <img className='down_img' src={arrowdown} alt=''/>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className='question_stick'>
+                        <div className='question_flex'>
+                            <div className='question_asked'>
+                                <p className='asked'>Какие типы проектов вы берете?</p>
+                            </div>
+                            <div className='arrov_down_img'>
+                                <img className='down_img' src={arrowdown} alt=''/>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
