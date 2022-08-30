@@ -7,6 +7,7 @@
  
 :root {
     --nav-list__anhor: #000000;
+    --nav-list__anhor_two: #808080;
     --background-light-part: #fbfbfb;
     --background-dark-part: #000000;
     --text-strong:#FF8A56;
@@ -855,9 +856,8 @@ body , html, h1, h2, h3, h4, h5, h6 , p, ul, img, div {
 }
 
 .footer{
-    padding: auto;
     background-color: var(--background-dark-part);
-    padding: 15em 2em 0.5em 5em;
+    padding: 10em 2em 0.5em 5em;
 }
 
 
@@ -870,8 +870,13 @@ body , html, h1, h2, h3, h4, h5, h6 , p, ul, img, div {
     color: #808080;
 }
 
+.footer_flex{
+    display: flex;
+    justify-content: space-between;
+}
+
 .social_network_img {
-    padding: 1em 0em 0em 0em;
+    padding: 1em 0em 0em 1.4em;
 }
 
 .telegram {
@@ -884,4 +889,25 @@ body , html, h1, h2, h3, h4, h5, h6 , p, ul, img, div {
 
 .instagram {
     cursor: pointer;
+}
+
+.footer_right {
+    display: flex;
+    justify-content: space-around;
+    width: 800px;
+}
+
+.nav-list_anhor_two {
+    padding-bottom: 1.8em;
+}
+
+.nav-list_anhor_two .nav-list_anhor_two {
+    text-decoration: none;
+    color: var(--nav-list__anhor_two);
+    font-size: 20px ;
+    transition: 400ms;
+}
+
+.nav-list_anhor_two .nav-list_anhor_two:hover {
+    color:rgb(255, 255, 255)
 }
