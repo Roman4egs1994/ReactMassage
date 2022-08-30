@@ -853,3 +853,35 @@ body , html, h1, h2, h3, h4, h5, h6 , p, ul, img, div {
     letter-spacing: 0.3px;
     color: #FFFFFF;
 }
+
+.footer{
+    padding: auto;
+    background-color: var(--background-dark-part);
+    padding: 15em 2em 0.5em 5em;
+}
+
+
+.network_text {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 31px;
+    letter-spacing: 0.3px;
+    color: #808080;
+}
+
+.social_network_img {
+    padding: 1em 0em 0em 0em;
+}
+
+.telegram {
+    cursor: pointer;
+}
+
+.vk {
+    cursor: pointer;
+}
+
+.instagram {
+    cursor: pointer;
+}

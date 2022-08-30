@@ -18,6 +18,9 @@ import arrov from '../src/images/arrov.svg';
 import review from '../src/images/review.png';
 import quotes from '../src/images/quotes.svg';
 import arrowdown from '../src/images/arrowdown.svg';
+import telegram from '../src/images/telegram.svg';
+import vk from '../src/images/vkontakte.svg';
+import instagram from '../src/images/instagram.svg';
 import './App.css';
 import { useTimer, deadline } from './scriptTimer.js';
 
@@ -71,48 +74,6 @@ function App() {
                 <img className="partner" src={partnersFour} alt=""/>
             </div>
         </div>
-        
-        
-        
-        
-        {/* Таймер начало */}
-        <div className="promotion">
-    
-            <div className="left_promotion">
-                <div className="promotion_text">
-                    <p className="title_text">Акция для новых клиентов</p>
-                    <p className = "description_text"> Мы ценим каждого клиента и предлагаем вам стать одним из них на очень выгодных условиях. 
-                        Каждому, кто закажет доставку питание на неделю, будет предоставлена скидка в размере <span>20%!</span>
-                        <br></br>
-                        Акция закончится 20 мая в 00:00</p>
-                </div>
-            </div>
-
-            <div className="right_promotion">
-                <div className="promotion_text"> 
-                    <p className="title_text">Осталось до конца акции:</p>
-                    <div className="timer">
-                        <div className="timer__block">
-                            <span id="days">{timer.days}</span>
-                            дней
-                        </div>
-                        <div className="timer__block">
-                            <span id="hours">{timer.hours}</span>
-                            часов
-                        </div>
-                        <div className="timer__block">
-                            <span id="minutes">{timer.minutes}</span>
-                            минут
-                        </div>
-                        <div className="timer__block">
-                            <span id="seconds">{timer.seconds}</span>
-                            секунд
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        {/* Таймер конец */}
 
         <div className='services'>
             <div className='services_text'> 
@@ -599,6 +560,46 @@ function App() {
                 </div>
             </div>
         </div>
+
+                {/* Таймер начало */}
+                <div className="promotion">
+    
+    <div className="left_promotion">
+        <div className="promotion_text">
+            <p className="title_text">Акция для новых клиентов</p>
+            <p className = "description_text"> Мы ценим каждого клиента и предлагаем вам стать одним из них на очень выгодных условиях. 
+                Каждому, кто закажет доставку питание на неделю, будет предоставлена скидка в размере <span>20%!</span>
+                <br></br>
+                Акция закончится 20 мая в 00:00</p>
+        </div>
+    </div>
+
+    <div className="right_promotion">
+        <div className="promotion_text"> 
+            <p className="title_text">Осталось до конца акции:</p>
+            <div className="timer">
+                <div className="timer__block">
+                    <span id="days">{timer.days}</span>
+                    дней
+                </div>
+                <div className="timer__block">
+                    <span id="hours">{timer.hours}</span>
+                    часов
+                </div>
+                <div className="timer__block">
+                    <span id="minutes">{timer.minutes}</span>
+                    минут
+                </div>
+                <div className="timer__block">
+                    <span id="seconds">{timer.seconds}</span>
+                    секунд
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{/* Таймер конец */}
+
         <div className='FAQ'>
             <div className='FAQ_header'>
                 <p className='FAQ_header_name'>FAQ</p>
@@ -609,7 +610,7 @@ function App() {
 
             <div className='questions'>
                 <div className='question_left'>
-                    
+
                    <div className='question_stick'>
                         <div className='question_flex'>
                             <div className='question_asked'>
@@ -701,7 +702,25 @@ function App() {
                     </div>
                 </div>
             </div>
+
+            <div className='footer'>
+               <div className='footer_flex'> 
+                    <div className='footer_left'>
+                        <div className='social_network_text'>
+                            <p className='network_text'>Социальные сети</p>
+                        </div>
+                        <div className='social_network_img'>
+                            <img className='telegram' src={telegram} alt='' />
+                            <img className='vk' src={vk} alt='' />
+                            <img className='instagram' src={instagram} alt='' />
+                        </div>
+                    </div>
+                </div>    
+            </div>
         </div>
+
+
+
   </div>
   );
 }
