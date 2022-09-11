@@ -1,0 +1,45 @@
+.page {
+    margin: 0 auto;
+    min-width: 1880px;
+}
+
+.page-header {
+    display: flex;
+    /* min-width: 1880px ; */
+    margin: 0px auto;
+    justify-content: space-between;
+    background-color: var(--background-light-part);
+    padding: 3em 2em 0.5em 5em;
+}
+
+.logo {
+    display: flex;
+}
+
+.header-logo {
+    width: 280px;
+}
+
+.nav-list {
+	display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: flex-end;
+    /* padding: 0 4.5em; */
+    align-content: center;
+}
+
+.nav-list_anhor {
+    margin: 0em 6.5em 0em 0em;
+}
+
+.nav-list .nav-list_anhor {
+    text-decoration: none;
+    color: var(--nav-list__anhor);
+    font-size: 20px ;
+    transition: 400ms;
+}
+
+.nav-list .nav-list_anhor:hover {
+    font-weight: 900;
+}

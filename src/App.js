@@ -1,4 +1,4 @@
-import logo from '../src/images/logo1.svg';
+// import logo from '../src/images/logo1.svg';
 import profilePhoto from '../src/images/profilePhoto.png';
 import partnersOne from '../src/images/partnersOne.svg';
 import partnersTwo from '../src/images/partnersTwo.svg';
@@ -23,32 +23,14 @@ import vk from '../src/images/vkontakte.svg';
 import instagram from '../src/images/instagram.svg';
 import './App.css';
 import { useTimer, deadline } from './scriptTimer.js';
+import { Header } from './components/Header';
 
 
 function App() {
    const timer = useTimer(deadline);
   return (
     <div className="page">
-        <header className="page-header">
-            <div сlassName="logo">
-                <img lassName="header-logo" src={logo} alt=""/>
-            </div>
-            <nav className="nav-list">
-                <div сlassName="page-nav-item">
-                    <a className="nav-list_anhor "href="/#">Обо мне</a>
-                </div>
-                <div className="page-nav-item">
-                    <a className="nav-list_anhor "href="/#">Услуги</a>
-                </div>
-                <div className="page-nav-item">
-                    <a className="nav-list_anhor "href="/#">Блог</a>
-                </div>
-                <div className="page-nav-item">
-                    <a className="nav-list_anhor "href="/#">Закажите звонок</a>
-                </div>
-            </nav>
-        </header>  
-        
+       <Header/>
         <main className="header-main">
             <div className="left-part">
                 <p className="title_text">
