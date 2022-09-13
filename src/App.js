@@ -23,7 +23,7 @@ import vk from '../src/images/vkontakte.svg';
 import instagram from '../src/images/instagram.svg';
 import './App.css';
 import { useTimer, deadline } from './scriptTimer.js';
-import { Header } from './components/Header';
+import { Header } from './components/Header/Header';
 
 
 function App() {
