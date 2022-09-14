@@ -1,0 +1,27 @@
+.btn-one {
+    height: 55px;
+    width: 190px;
+    background: #000000;
+    cursor: pointer;
+    position: relative;
+    color:#FFFFFF;
+    font-size: 18px;
+    border-radius: 0px;
+    border: 2px solid darkgrey;
+    margin-right:14px;
+    transition: .5s;
+}
+
+.btn-one:hover {
+    color: #000000;
+    z-index:1;
+}
+
+.btn-one::before {
+    content: "";
+    display: block;
+    background:#fff;
+    position: absolute;
+    transition: .5s;
+    z-index: -1;
+}

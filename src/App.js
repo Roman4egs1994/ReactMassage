@@ -24,7 +24,8 @@ import arrowdown from '../src/images/arrowdown.svg';
 import './App.css';
 import { useTimer, deadline } from './scriptTimer.js';
 import { Header } from './components/Header/Header';
-import { Footer } from './components/Footer/Footer'
+import { Footer } from './components/Footer/Footer';
+import { Buttons } from './components/Buttons/Buttons';
 
 
 function App() {
@@ -40,7 +41,8 @@ function App() {
                 <p className="description_text">Привет! Меня зовут Джейк, я продуктовый дизайнер из Берлина.
                 <br></br>Я создаю удобные интерфейсы для быстрорастущих стартапов.</p>
                 <div className="buttons-menu">
-                    <button className="btn-one book-a-call">Заказать звонок</button>
+                    <Buttons/>
+                    {/* <button className="btn-one book-a-call">Заказать звонок</button> */}
                     <button className="btn download-CV">Скачать резюме</button>
                 </div>
             </div>

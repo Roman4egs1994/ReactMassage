@@ -65,7 +65,7 @@ body , html, h1, h2, h3, h4, h5, h6 , p, ul, img, div {
     margin-top: 2.5em;
 }
 
-.btn-one {
+/* .btn-one {
     height: 55px;
     width: 190px;
     background: #000000;
@@ -91,7 +91,7 @@ body , html, h1, h2, h3, h4, h5, h6 , p, ul, img, div {
     position: absolute;
     transition: .5s;
     z-index: -1;
-}
+} */
 
 .book-a-call::before {
     width: 0;
