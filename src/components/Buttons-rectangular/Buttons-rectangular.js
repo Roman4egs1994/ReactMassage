@@ -1,5 +1,5 @@
 import React from "react";
-import './styles-buttons/buttons.css';
+import './styles-buttons/buttons-rectangular.css';
 
 export const Buttons = () => {
     return (

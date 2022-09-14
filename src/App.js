@@ -1,9 +1,4 @@
-// import logo from '../src/images/logo1.svg';
 import profilePhoto from '../src/images/profilePhoto.png';
-import partnersOne from '../src/images/partnersOne.svg';
-import partnersTwo from '../src/images/partnersTwo.svg';
-import partnersFree from '../src/images/partnersFree.svg';
-import partnersFour from '../src/images/partnersFour.svg';
 import StickOne from '../src/images/StickOne.svg';
 import StickTwo from '../src/images/StickTwo.svg';
 import StickFree from '../src/images/StickFree.svg';
@@ -18,14 +13,12 @@ import arrov from '../src/images/arrov.svg';
 import review from '../src/images/review.png';
 import quotes from '../src/images/quotes.svg';
 import arrowdown from '../src/images/arrowdown.svg';
-// import telegram from '../src/images/telegram.svg';
-// import vk from '../src/images/vkontakte.svg';
-// import instagram from '../src/images/instagram.svg';
 import './App.css';
 import { useTimer, deadline } from './scriptTimer.js';
 import { Header } from './components/Header/Header';
 import { Footer } from './components/Footer/Footer';
-import { Buttons } from './components/Buttons/Buttons';
+import { Buttons } from './components/Buttons-rectangular/Buttons-rectangular';
+import { Partners } from './components/Partners/Partners';
 
 
 function App() {
@@ -52,12 +45,7 @@ function App() {
         </main>
         <div className="trusted-by">
             <p className="partners-text">Нам доверяют</p>
-            <div className="partners-logo">
-                <img className="partner"  src={partnersOne} alt=""/>
-                <img className="partner"  src={partnersTwo} alt=""/>
-                <img className="partner" src={partnersFree} alt=""/>
-                <img className="partner" src={partnersFour} alt=""/>
-            </div>
+            <Partners/>
         </div>
 
         <div className='services'>
