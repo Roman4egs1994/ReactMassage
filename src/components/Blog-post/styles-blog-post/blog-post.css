@@ -1,0 +1,36 @@
+.message {
+    margin-bottom: 5em;
+}
+
+.сlock span {
+    margin-right: 0.3em;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 16px;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.blog_text {
+    padding: 1.5em 0em 0em 0em;
+}
+
+.text_discr {
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 36px;
+    color:#FFFFFF;
+}
+
+.article {
+    padding: 1.5em 0em 1.5em 0em;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.3);
+}
+
+.article_open {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 18px;
+    color:#FFFFFF;
+    cursor: pointer;  
+}

@@ -21,6 +21,7 @@ import { Buttons } from './components/Buttons-rectangular/Buttons-rectangular';
 import { Partners } from './components/Partners/Partners';
 import { Stick } from './components/Stick/Stick';
 import { Box } from './components/Box/Box';
+import { BlogPost } from './components/Blog-post/Blog-post';
 
 
 function App() {
@@ -223,7 +224,8 @@ function App() {
                     </div>
                 </div>              
                     <div className='blog_message'>
-                        <div className='message'>  
+                        <BlogPost/>
+                        {/* <div className='message'>  
                             <div className='сlock'>
                                 <span className='month'>Август</span>
                                 <span className='number'>16</span>
@@ -239,7 +241,7 @@ function App() {
                             <div className='article'>
                                 <p className='article_open'>Читать статью &#8594;</p>
                             </div>
-                        </div>
+                        </div> */}
 
                         <div className='message'>  
                             <div className='сlock'>
