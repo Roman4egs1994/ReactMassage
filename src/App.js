@@ -1,8 +1,6 @@
 import profilePhoto from '../src/images/profilePhoto.png';
-// import StickOne from '../src/images/StickOne.svg';
 import StickTwo from '../src/images/StickTwo.svg';
 import StickFree from '../src/images/StickFree.svg';
-// import caruselOne from '../src/images/carusel_one.png';
 import caruselTwo from '../src/images/carusel_two.png';
 import caruselFree from '../src/images/carusel_free.png';
 import mePhotoOne from '../src/images/me_photoOne.png';
