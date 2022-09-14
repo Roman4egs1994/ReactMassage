@@ -1,0 +1,46 @@
+.stick {
+    width: 330px;
+    padding: 20px;
+}
+
+.stick_text{
+    padding: 1em 0em 0em 0em;
+}
+
+.header_stick_height {
+    height: 55px;
+}
+
+.description_text_height {
+    height: 170px;
+}
+
+.header_one {
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 26px;
+}
+
+.description_one {
+    padding: 1.5em 0em 0em 0em;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #666666;
+}
+
+.list {
+    padding: 1.5em 0em 0em 0em;
+}
+
+.list_one {
+    list-style-type: square;
+}
+
+.list_one li {
+    font-size: 18px;
+    margin-left: 18px;
+    padding: 10px 0px 0px 0px;
+    font-weight: 700;
+}
+

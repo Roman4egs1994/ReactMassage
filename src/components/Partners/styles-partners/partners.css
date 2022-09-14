@@ -1,0 +1,9 @@
+.partners-logo {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0em 4em 0em 4em;
+   }
+
+   .partner {
+    margin: 0px 60px 0px 60px;
+   }

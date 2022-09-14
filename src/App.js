@@ -1,8 +1,8 @@
 import profilePhoto from '../src/images/profilePhoto.png';
-import StickOne from '../src/images/StickOne.svg';
+// import StickOne from '../src/images/StickOne.svg';
 import StickTwo from '../src/images/StickTwo.svg';
 import StickFree from '../src/images/StickFree.svg';
-import caruselOne from '../src/images/carusel_one.png';
+// import caruselOne from '../src/images/carusel_one.png';
 import caruselTwo from '../src/images/carusel_two.png';
 import caruselFree from '../src/images/carusel_free.png';
 import mePhotoOne from '../src/images/me_photoOne.png';
@@ -19,6 +19,8 @@ import { Header } from './components/Header/Header';
 import { Footer } from './components/Footer/Footer';
 import { Buttons } from './components/Buttons-rectangular/Buttons-rectangular';
 import { Partners } from './components/Partners/Partners';
+import { Stick } from './components/Stick/Stick';
+import { Box } from './components/Box/Box';
 
 
 function App() {
@@ -54,7 +56,8 @@ function App() {
                 <p className='services_description'>Дизайн, который решает проблемы,<br></br> по одному продукту за раз.</p>
 
                 <div className='services_stick'>
-                    <div className='stick' >
+                    <Stick/>
+                    {/* <div className='stick' >
                         <div className='stick_img'>
                             <img className="stick_img"  src={StickOne} alt=""/>
                         </div>
@@ -76,7 +79,7 @@ function App() {
                                 <li>Front-end Development</li>
                             </ul>
                         </div>    
-                    </div>
+                    </div> */}
 
                     <div className='stick' >
                         <div className='stick_img'>
@@ -144,7 +147,8 @@ function App() {
             </div> 
 
             <div className='project_bottom'>
-                <div className='box'>
+                <Box/>
+                {/* <div className='box'>
                     <div className='box_img'>
                         <img className="box_img_carusel"  src={caruselOne} alt=""/>
                     </div>
@@ -160,7 +164,7 @@ function App() {
                             <button className='btn_box'>Посмотреть &#8594;</button>
                         </div>
                     </div>
-                </div>
+                </div> */}
 
                 <div className='box'>
                     <div className='box_img'>
